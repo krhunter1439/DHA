@@ -11,6 +11,11 @@ background-image: linear-gradient(0deg, #eae4e5 0%, #818383 50%, #4f4e4e 100%);
   background-size: cover;
   background-position: center center;
 }
+ptitle {
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ size: 5px;
+}
+
 
 
 h1 {
@@ -18,9 +23,9 @@ h1 {
   color: #29363B; 
 
 } 
-P{
-  font-family: 'Courier New', Courier, monospace; 
-  color: #29363B;
+p {
+  padding-top: 8px;
+  padding-right: 40px;
 }
 /* ====================================
 Navigation 
@@ -172,7 +177,7 @@ Burger king
 .open-overlay span {
   display: block;
   height: 1px;
-  background-color: rgb(43, 41, 41);
+  background-color: rgba(163, 161, 161, 0.404);
   cursor: pointer;
   margin-top: 8px;
 }
