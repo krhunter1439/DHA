@@ -10,7 +10,7 @@
       <link rel="stylesheet" href="css/main.css">
       <link rel="stylesheet" href="css/nav.css">
       <link rel="stylesheet" href="css/socialmedia.css">
-
+      <link rel="stylesheet" href="css/Portfolio.css">
   
 </head>
 
@@ -30,7 +30,7 @@
   
 <section > 
   <img style="padding-top: 35px"  src="dyfhead.png">
-  <div class="open-overlay">
+  <div style="position:fixed"class="open-overlay">
     <a style = "float: right; padding-right: 40px; Padding-bottom:10px; padding-top:7px; color: white; font-family: 'Work Sans', sans-serif; letter-spacing: 4px; ">MENU</a>
     <span style = "color:azure"class="bar-top"></span>
     <span style = "color:azure"class="bar-middle"></span>
@@ -39,50 +39,243 @@
   </div> 
   
 </section>  
+<!-- MAIN (Center website) -->
+<div class="main">
 
-<div > 
 
-  <div class="content"> 
-    <header class="header">About</header>
-    <div style="width: 25%;">
-    <img style= "float: left; padding-right: 5px;" id="myImg" src="aboutimage.jpg" alt="Dyfri Hughes At Work" width="470" height="350">
-    </div> 
-    <div> 
-      <p>
-        Through my practice I am creating work that expresses the psychological experience of the uncanny that alludes to the chaotic nature of the macrocosmic world, our planet, space and the great unknown. As well as the microcosm, the sense of mind, body and soul and the destructive ways they inhabit, whilst reflecting concepts of light and dark, which I give a strong presence to amongst the work.
 
-I explore all of these concepts in an attempt to confine chaos onto canvas by creating monochromatic abstract paintings through acts of aggressive mark-making, erasing, scratching the surface and adding layers of alternative mediums to create sense of decay and being that merge out amongst surface. Also, adding gestural movement of the brushes and tools to create structure that try to bring order into chaos, whilst throwing the paint onto the canvas using black and white as my primary source material that harmonise as one or clash together.
-
-When people are left facing or dealing with concepts of the great unknown and the chaotic beauty of nature and our universe, we are left to question humanity’s role within it, that we are caught up in our own universe within ourselves, we are left puzzled and scared at things that are uncanny but in order to step into the light we must first step into the dark.
-      </p>
-
-    </div>
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('2020')"> 2020</button>
+    <button class="btn" onclick="filterSelection('2019')"> 2019</button>
+    <button class="btn" onclick="filterSelection('people')"> 2018</button>
   </div>
-    
-    
-    
-    
-    
-    
-    
-    <!-- The Modal -->
-    
-    
-    <div id="myModal" class="modal">
-    
-    
-      <span class="close">×</span>
-    
-    
-      <img class="modal-content" id="img01">
-    
-    
-      <div id="caption"></div>
-    
-    
-    </div> 
   
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
+    <div class="column 2020">
+      <div class="content">
+        <img src="/website art - Copy/2020/painting.jpg" alt="Mountains" style="width:100%">
+       
+      </div>
     </div>
+    <!-- Start of 2020 -->
+    <div class="column 2020">
+      <div class="content">
+      <img src="/website art - Copy/2020/psyche.jpg" alt="2020" style="width:100%">
+       
+      </div>
+    </div>
+    <div class="column 2020">
+      <div class="content">
+      <img src="/website art - Copy/2020/unnamed (10).jpg" alt="2020" style="width:100%">
+      
+      </div>
+    </div>  
+    <div class="column 2020">
+      <div class="content">
+      <img src="/website art - Copy/2020/unnamed (11).jpg" alt="2020" style="width:100%">
+    
+      </div>
+    </div> 
+    <div class="column 2020">
+      <div class="content">
+      <img src="/website art - Copy/2020/unnamed (2).jpg" alt="2020" style="width:100%">
+       
+      </div>
+    </div> 
+    <div class="column 2020">
+      <div class="content">
+      <img src="/website art - Copy/2020/unnamed (3).jpg" alt="2020" style="width:100%">
+        
+      </div>
+    </div>
+    <div class="column 2020">
+      <div class="content">
+      <img src="/website art - Copy/2020/unnamed (4).jpg" alt="Nature" style="width:100%">
+        
+      </div>
+    </div> 
+    <div class="column 2020">
+      <div class="content">
+      <img src="/website art - Copy/2020/unnamed (5).jpg" alt="2020" style="width:100%">
+        
+      </div>
+    </div> 
+    <div class="column 2020">
+      <div class="content">
+      <img src="/website art - Copy/2020/unnamed (6).jpg" alt="2020" style="width:100%">
+      
+      </div>
+    </div> 
+    <div class="column 2020">
+      <div class="content">
+      <img src="/website art - Copy/2020/unnamed (7).jpg" alt="2020" style="width:100%">
+     
+      </div>
+    </div> 
+    <div class="column 2020">
+      <div class="content">
+      <img src="/website art - Copy/2020/unnamed (9).jpg" alt="2020" style="width:100%">
+       
+      </div>
+    </div> 
+    <div class="column 2020">
+      <div class="content">
+      <img src="/website art - Copy/2020/unnamed.jpg" alt="2020" style="width:100%">
+      
+      </div>
+    </div> 
+    <!-- END of 2020 -->
+    
+    <!-- START of 2019-->
+    <div class="column 2019">
+      <div class="content">
+        <img src="/website art - Copy/2019/IMG_1227.JPG" alt="2019" style="width:100%; height:inherit">
+       
+      </div>
+    </div>
+    <div class="column 2019">
+      <div class="content">
+      <img src="/website art - Copy/2019/mr handy mk2.jpg" alt="2019" style="width:100%; height:inherit">
+       
+      </div>
+    </div>
+    <div class="column 2019">
+      <div class="content">
+      <img src="/website art - Copy/2019/QHMJ3855.JPG" alt="2019" style="width:100%; height:inherit">
+       
+      </div>
+    </div> 
+    <div class="column 2019">
+      <div class="content">
+      <img src="/website art - Copy/2019/stone henge.jpg" alt="2019" style="width:100%; height:inherit">
+       
+      </div>
+    </div> 
+    <div class="column 2019">
+      <div class="content">
+      <img src="/website art - Copy/2019/unnamed (1).jpg" alt="2019" style="width:100%; height:inherit">
+      
+      </div>
+    </div> 
+    <div class="column 2019">
+      <div class="content">
+      <img src="/website art - Copy/2019/unnamed (12).jpg" alt="2019" style="width:100%; height:inherit">
+    
+      </div>
+    </div> 
+    <div class="column 2019">
+      <div class="content">
+      <img src="/website art - Copy/2019/unnamed (15).jpg" alt="2019" style="width:100%; height:inherit">
+       
+      </div>
+    </div> 
+    <div class="column 2019">
+      <div class="content">
+      <img src="/website art - Copy/2019/unnamed (5).jpg" alt="2019"style="width:100%; height:inherit">
+        
+      </div>
+    </div> 
+    <div class="column 2019">
+      <div class="content">
+      <img src="/website art - Copy/2019/unnamed (8).jpg" alt="2019" style="width:100%; height:inherit">
+        
+      </div>
+    </div> 
+    <div class="column 2019">
+      <div class="content">
+      <img src="/website art - Copy/2019/unnamed 22.jpg" alt="2019" style="width:100%; height:inherit">
+      
+      </div>
+    </div> 
+    <div class="column 2019">
+      <div class="content">
+      <img src="/website art - Copy/2019/unnamed.jpg" alt="2019" style="width:100%; height:inherit">
+     
+      </div>
+    </div>
+  <!--END of 2019 --> 
+    <div class="column people">
+      <div class="content">
+        <img src="/w3images/people1.jpg" alt="Car" style="width:100%; height:inherit">
+        <h4>Girl</h4>
+        <p>Lorem ipsum dolor..</p>
+      </div>
+    </div>
+    <div class="column people">
+      <div class="content">
+      <img src="/w3images/people2.jpg" alt="Car" style="width:100%">
+        <h4>Man</h4>
+        <p>Lorem ipsum dolor..</p>
+      </div>
+    </div>
+    <div class="column people">
+      <div class="content">
+      <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Woman</h4>
+        <p>Lorem ipsum dolor..</p>
+      </div>
+    </div>
+  <!-- END GRID -->
+  </div>
+  
+  <!-- END MAIN -->
+  </div>
+  
+  <script>
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("column");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+  
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+  
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  
+  
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  </script>
+  
+
+     
+
+
+
+
+
     
     
     </div>
@@ -97,8 +290,9 @@ When people are left facing or dealing with concepts of the great unknown and th
     <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js'></script> 
       
 
-    <script src="js/index.js"></script>
-    <div class="menu">
+    <script src="js/index.js"></script> 
+  
+    <div style="position:fixed" class="menu">
       <div class="label">Social Media</div>
       <div class="spacer"></div>
       <div class="item"><span>Twitter</span></div>
