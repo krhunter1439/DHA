@@ -18,24 +18,27 @@
 .filter-button
 {
     font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
     text-align: center;
-    color: none;
+    color: #42B32F;
     margin-bottom: 30px;
 
 }
 .filter-button:hover
 {
     font-size: 18px;
- 
+    border: 1px solid #42B32F;
     border-radius: 5px;
     text-align: center;
-    color: transparent;
-  
+    color: #ffffff;
+    background-color: #42B32F;
+
 }
 .btn-default:active .filter-button:active
 {
-    
-    background-color: slategrey;
+    background-color: #42B32F;
+    color: white;
 }
 
 .port-image
@@ -54,45 +57,9 @@
 }
 
 
-/*alt Buttons */
-* {
-    box-sizing: border-box;
-  }
-  *::before, *::after {
-    box-sizing: border-box;
-  }
-  
+
+
+
+
 
   
-  button {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    outline: none;
-    border: white;
-    vertical-align: middle;
-    text-decoration: underline;
-    font-size: inherit;
-    font-family: inherit;  
-    font-family: 'Work Sans', sans-serif; 
-    letter-spacing: 4px; 
-    
-
-    
-  }
-  button.learn-more {
-    transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
-    color: white;
-    padding: 1.25rem 2rem;
-    background:transparent;
-    text-transform: uppercase; 
-  
-  }
-  button.learn-more:hover, button.learn-more:focus, button.learn-more:active {
-    letter-spacing: 0.125rem;
-  }
-  
- 
-  
-  
-  }
