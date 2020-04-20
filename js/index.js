@@ -120,3 +120,17 @@ css.innerHTML += "}\n";
 css.innerHTML += "#slidy { left: 0%; "+keyframeprefix+"transform: translate3d(0,0,0); "+keyframeprefix+"animation: "+totalTime+"s slidy infinite; }\n"; // call on the completed keyframe animation sequence
 document.body.appendChild(css); // add the new stylesheet to the end of the document
 }
+
+//start of modal
+
+$(window).load(function () {
+  $(".trigger_popup_fricc").click(function(){
+     $('.hover_bkgr_fricc').show();
+  });
+  $('.hover_bkgr_fricc').click(function(){
+      $('.hover_bkgr_fricc').hide();
+  });
+  $('.popupCloseButton').click(function(){
+      $('.hover_bkgr_fricc').hide();
+  });
+});
