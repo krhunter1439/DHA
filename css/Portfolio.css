@@ -41,25 +41,17 @@
     color: white;
 }
 
-.port-image
-{
-    width: 100%;
-}
 
 .gallery_product
 {
-    margin-bottom: 30px;
+    margin-bottom: 20px; 
+  
 } 
 .img-responsive {
-    display: block;
+    display: grid;
     max-width: 100%;
     height: auto;
 }
 
 
 
-
-
-
-
-  

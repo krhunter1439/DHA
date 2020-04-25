@@ -133,4 +133,9 @@ $(window).load(function () {
   $('.popupCloseButton').click(function(){
       $('.hover_bkgr_fricc').hide();
   });
-});
+}); 
+
+
+
+
+/// image gallery
