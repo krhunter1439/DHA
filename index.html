@@ -40,21 +40,41 @@
   </div> 
   
 </section>  
-
+<div style="display: flex;
+align-items: center;
+justify-content: center;
+height: 35em;"> 
+<div class="w3-content w3-section" style="max-width:500px; ">
+  <img class="mySlides" src="/website art - Copy/SlideShow/6A50BC49-0AE8-4497-A520-DE41DA3C5B97 (1).jpg" style="width:100%">
+  <img class="mySlides" src="/website art - Copy/SlideShow/IMG-0653.jpg" style="width:100%">
+  <img class="mySlides" src="/website art - Copy/SlideShow/IMG-0654.jpg" style="width:100%">
+  <img class="mySlides" src="/website art - Copy/SlideShow/unnamed (11).jpg" style="width:100%">
+  <img class="mySlides" src="/website art - Copy/SlideShow/unnamed (3).jpg" style="width:100%">
+  <img class="mySlides" src="/website art - Copy/SlideShow/unnamed (5).jpg" style="width:100%">
+  <img class="mySlides" src="/website art - Copy/SlideShow/unnamed (9).jpg" style="width:100%">
+</div> 
+</div>
 <div > 
 
     
-  <div style="height: 620px; widows: 125px;" id="slidy-container">
-    <figure style="height: 620px; widows: 125px;"id="slidy">
-      <img style="height: 620px; widows: 125px;"src="/website art - Copy/2019/unnamed (8).jpg" alt="eyes" >
-      <img style="height: 620px; widows: 125px;"src="/website art - Copy/2018/IMG_2225.JPG" alt="lou" >
-      <img style="height: 620px; widows: 125px;" src="/website art - Copy/2020/unnamed (11).jpg" alt="lucie-2" >
+ 
     
-    </figure>
-  </div>
-  
-    </div>
+    <script>
+    var myIndex = 0;
+    carousel();
     
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
     
     </div>
     

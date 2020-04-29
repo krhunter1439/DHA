@@ -70,7 +70,12 @@ P{
   padding-top: 10px;
 } 
 
-#slidy-container { 
-  width: 70%; overflow: hidden; margin: 0 auto;
+.mySlides {
+  display:none; 
+  vertical-align: middle;
+   
+  display: flex;
+  align-items: center;
+  justify-content: center 
 }
 
